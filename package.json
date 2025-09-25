@@ -1,0 +1,18 @@
+{
+  "name": "warpahvip-loader",
+  "version": "1.0.0",
+  "description": "API Loader for Warpah VIP Scripts",
+  "main": "api/loader.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "vercel build",
+    "deploy": "vercel --prod"
+  },
+  "keywords": ["roblox", "script", "loader", "api"],
+  "author": "Warpah VIP",
+  "license": "MIT",
+  "dependencies": {},
+  "engines": {
+    "node": ">=14.x"
+  }
+}
