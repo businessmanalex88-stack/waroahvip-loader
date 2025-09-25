@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "name": "warpahvip-loader",
+  "builds": [
+    {
+      "src": "api/*.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/loader",
+      "dest": "/api/loader.js"
+    },
+    {
+      "src": "/loader",
+      "dest": "/api/loader.js"
+    },
+    {
+      "src": "/",
+      "dest": "/api/loader.js"
+    }
+  ],
+  "functions": {
+    "api/*.js": {
+      "maxDuration": 30
+    }
+  },
+  "regions": ["sin1", "hkg1", "syd1"]
+}
