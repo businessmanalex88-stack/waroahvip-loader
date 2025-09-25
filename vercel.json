@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "warpahvip-loader",
+  "name": "warpahvip-api-2024",
   "builds": [
     {
       "src": "api/*.js",
